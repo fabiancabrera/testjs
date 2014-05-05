@@ -1,0 +1,58 @@
+/* SolexBlack */
+@font-face {
+	font-family: SolexBlack;
+ 	src: url("../fonts/SolexBlack.eot") /* EOT file for IE */
+ 	src: url("../fonts/SolexBlack.ttf") /* TTF file for CSS3 browsers */
+ 	src: url('../fonts/SolexBlack.woff');
+}
+/* SolexBlackItalic */
+@font-face {
+	font-family: SolexBlackItalic;
+ 	src: url("../fonts/SolexBlackItalic.eot") /* EOT file for IE */
+ 	src: url("../fonts/SolexBlackItalic.ttf") /* TTF file for CSS3 browsers */
+	src: url('../fonts/SolexBlackItalic.woff');
+}
+/* SolexBold */
+@font-face {
+ 	font-family: SolexBold;
+ 	src: url("../fonts/SolexBold.eot") /* EOT file for IE */
+ 	src: url("../fonts/SolexBold.ttf") /* TTF file for CSS3 browsers */
+	src: url('../fonts/SolexBold.woff');
+}
+/* SolexMedium */
+@font-face {
+	font-family: SolexMedium;
+ 	src: url("../fonts/SolexMedium.eot") /* EOT file for IE */
+ 	src: url("../fonts/SolexMedium.ttf") /* TTF file for CSS3 browsers */
+ 	src: url('../fonts/SolexMedium.woff');
+}
+/* SolexMediumItalic */
+@font-face {
+ 	font-family: SolexMediumItalic;
+ 	src: url("../fonts/SolexMediumItalic.eot") /* EOT file for IE */
+ 	src: url("../fonts/SolexMediumItalic.ttf") /* TTF file for CSS3 browsers */
+	url('../fonts/SolexMediumItalic.woff');
+}
+/* SolexRegularItalic */
+@font-face {
+ 	font-family: SolexRegularItalic;
+ 	src: url("../fonts/SolexRegularItalic.eot") /* EOT file for IE */
+ 	src: url("../fonts/SolexRegularItalic.ttf") /* TTF file for CSS3 browsers */
+	url('../fonts/SolexRegularItalic.woff');
+}
+
+/** ejemplo de uso **/
+
+body {
+ font-family: MyCustomFont, Verdana, Arial, sans-serif;
+ font-size: medium;
+ color: black
+}
+span.header {
+ font-family: MyCustomFont, Impact, "Arial Black", sans-serif;
+ font-weight: bold;
+ color: red
+}
+
+
+
